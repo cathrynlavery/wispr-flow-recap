@@ -1,0 +1,9 @@
+{
+  "name": "wispr-flow-recap",
+  "version": "1.0.0",
+  "description": "Beautiful activity recaps for Wispr Flow voice dictation",
+  "private": true,
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}

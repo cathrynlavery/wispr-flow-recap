@@ -4,10 +4,7 @@ Beautiful activity recaps for [Wispr Flow](https://lttlmg.ht/wisprflow) voice di
 
 Built as a [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill by [@cathrynlavery](https://x.com/cathrynlavery) at [founder.codes](https://founder.codes).
 
-<!-- Add screenshots here -->
-<!-- ![Daily Recap](screenshots/daily.png) -->
-<!-- ![Weekly Recap](screenshots/weekly.png) -->
-<!-- ![Monthly Recap](screenshots/monthly.png) -->
+![Daily Recap](screenshots/daily.png)
 
 ## What it does
 

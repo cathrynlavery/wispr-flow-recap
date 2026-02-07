@@ -4,7 +4,9 @@ Beautiful activity recaps for [Wispr Flow](https://lttlmg.ht/wisprflow) voice di
 
 Built as a [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill by [@cathrynlavery](https://x.com/cathrynlavery) at [founder.codes](https://founder.codes).
 
-![Daily Recap](screenshots/daily.png)
+![Weekly Recap](screenshots/weekly.png)
+
+![Monthly Recap](screenshots/monthly.png)
 
 ## What it does
 
@@ -39,7 +41,8 @@ Reports are styled with the [founder.codes](https://founder.codes) design langua
 - [Inter](https://fonts.google.com/specimen/Inter) body text
 - [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) labels and stats
 - Coral accent (`#f34e3f`) for highlights and progress bars
-- Charcoal (`#2d2d2d`) for chart bars and heatmaps
+- Muted coral (`rgba(243, 78, 63, 0.25)`) for chart bars; coral gradient for heatmaps
+- Charcoal (`#2d2d2d`) retained for share card bars (better contrast at small size)
 
 ## Setup
 
@@ -87,13 +90,35 @@ node scripts/monthly-recap.js --html --month=2026-01
 
 ## Claude Code Skill
 
-This works as a Claude Code skill — just ask naturally:
+### Install
+
+Clone or copy this folder into your Claude Code skills directory:
+
+```bash
+# Global (available in all projects)
+cp -r wispr-flow ~/.claude/skills/wispr-flow
+
+# Or project-level (available in one repo)
+cp -r wispr-flow .claude/skills/wispr-flow
+```
+
+Then install dependencies:
+
+```bash
+cd ~/.claude/skills/wispr-flow/scripts && npm install
+```
+
+### Trigger
+
+**Slash command** — type `/wispr-flow` in Claude Code to invoke directly.
+
+**Natural language** — Claude will auto-detect these phrases:
 
 > "What did I do today?"
 > "Show me my weekly recap"
 > "Generate a monthly report for January"
-
-Copy `SKILL.md` to your Claude Code skills directory and the scripts will be invoked automatically.
+> "How much did I dictate this week?"
+> "What apps did I use today?"
 
 ## Examples
 

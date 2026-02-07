@@ -341,7 +341,7 @@ function generateHTML(data) {
     const textColor = opacity > 0.5 ? "#f5f4ed" : "var(--text)";
     const labelColor = opacity > 0.5 ? "rgba(245,244,237,0.7)" : "var(--text-muted)";
     hourCells.push(
-      `<div class="hour-cell" style="background: rgba(45, 45, 45, ${opacity})" title="${formatHour(h)}: ${count} dictations">
+      `<div class="hour-cell" style="background: rgba(243, 78, 63, ${opacity})" title="${formatHour(h)}: ${count} dictations">
         <div class="hour-num" style="color: ${textColor}">${count > 0 ? count : ""}</div>
         <div class="hour-label" style="color: ${labelColor}">${h % 3 === 0 ? formatHour(h) : ""}</div>
       </div>`
@@ -522,7 +522,7 @@ function generateHTML(data) {
   .day-bar {
     width: 100%;
     max-width: 48px;
-    background: #2d2d2d;
+    background: rgba(243, 78, 63, 0.25);
     border-radius: 6px 6px 2px 2px;
     min-height: 2px;
     transition: height 0.6s ease;

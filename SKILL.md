@@ -1,3 +1,8 @@
+---
+name: wispr-flow
+description: Generate daily, weekly, or monthly voice dictation recaps from Wispr Flow. Use when user says "what did I do today", "daily recap", "weekly recap", "monthly recap", "wispr recap", "show me my flow stats", "what apps did I use", "how much did I dictate", "what did I work on this week", or "what did I work on this month".
+---
+
 # Wispr Flow — Voice Recap
 
 Use this skill when the user asks about their daily, weekly, or monthly activity, what they worked on, or wants a recap of their Wispr Flow dictation history. Trigger phrases include: "what did I do today", "daily recap", "weekly recap", "monthly recap", "wispr recap", "show me my flow stats", "what apps did I use", "how much did I dictate", "what did I work on this week", "what did I work on this month".
